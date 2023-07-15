@@ -43,6 +43,89 @@ public class EvolvingWebTests extends EvolvingWebTestBase{
                     .shouldBe(visible);
         });
 
+        step("Check if Services menu is working", () -> {
+            $(byText("Services")).hover()
+                    .shouldBe(visible);
+
+            $(byText("Our Services")).hover()
+                    .shouldBe(visible);
+
+            $(byText("Audit Services")).hover()
+                    .shouldBe(visible);
+
+            $(byText("Strategy")).hover()
+                    .shouldBe(visible);
+
+            $(byText("Design")).hover()
+                    .shouldBe(visible);
+
+            $(byText("Design")).hover()
+                    .shouldBe(visible);
+
+            $(byText("Development")).hover()
+                    .shouldBe(visible);
+
+            $(byText("Marketing")).hover()
+                    .shouldBe(visible);
+
+            $(byText("Maintenance")).hover()
+                    .shouldBe(visible);
+
+            $(byText("Drupal")).hover()
+                    .shouldBe(visible);
+
+            $(byText("Content")).hover()
+                    .shouldBe(visible);
+        });
+
+        step("Check if Industries menu items are working", () -> {
+            $(byText("Industries")).hover()
+                    .shouldBe(visible);
+
+            $(byText("All Industries")).hover()
+                    .shouldBe(visible);
+
+            $(byText("Government")).hover()
+                    .shouldBe(visible);
+
+            $(byText("Higher Education")).hover()
+                    .shouldBe(visible);
+
+            $(byText("Non-profits")).hover()
+                    .shouldBe(visible);
+
+            $(byText("Healthcare")).hover()
+                    .shouldBe(visible);
+
+            $(byText("Enterprise")).hover()
+                    .shouldBe(visible);
+        });
+
+        step("Click on Contact us", () -> {
+            $(byText("Contact")).hover()
+                    .shouldBe(visible)
+                    .click();
+
+
+            $("#firstname-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
+                    .setValue("Vladimir");
+            $("#lastname-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
+                    .setValue("Borchevskiy");
+            $("#email-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
+                    .setValue("arsenaljkeeee10@gmail.com");
+            $("#email-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
+                    .setValue("+995597078392");
+            $("#reason_for_contact-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
+                    .$(byText("Maintenance & Support")).click();
+            $("#message-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
+                    .setValue("Hello, i'm Vladimir, Quality Assurance Engineer with a demonstrated history of working in software product-based companies, and i inspired by Vivid Money, just hire me!");
+
+sleep(50000);
+
+
+
+        });
+
         sleep(5000);
 
     }
