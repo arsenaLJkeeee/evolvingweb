@@ -121,7 +121,7 @@ public class EvolvingWebTests extends EvolvingWebTestBase{
             $("#reason_for_contact-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
                     .selectOption("Maintenance & Support");
             $("#message-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
-                    .setValue("Hello, i'm Vladimir, Quality Assurance Engineer with a demonstrated history of working in software product-based companies, and i inspired by Vivid Money, just hire me!");
+                    .setValue("Hello, i'm Vladimir, Quality Assurance Engineer with a demonstrated history of working in software product-based companies, and i inspired by Evolving Web, just hire me!");
 
 
         });
