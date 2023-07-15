@@ -68,7 +68,7 @@ public class EvolvingWebTests extends EvolvingWebTestBase{
             $(byText("Marketing")).hover()
                     .shouldBe(visible);
 
-            $(byText("Maintenance")).hover()
+            $(byText("Maintenance & Support")).hover()
                     .shouldBe(visible);
 
             $(byText("Drupal")).hover()
