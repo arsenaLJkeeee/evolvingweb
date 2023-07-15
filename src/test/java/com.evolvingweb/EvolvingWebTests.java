@@ -6,6 +6,8 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+import java.time.Duration;
+
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Configuration.baseUrl;
@@ -103,7 +105,7 @@ public class EvolvingWebTests extends EvolvingWebTestBase{
 
         step("Click on Contact us", () -> {
             $(byText("Contact")).hover()
-                    .shouldBe(visible)
+                    .shouldBe(visible, Duration.ofSeconds(3))
                     .click();
 
 
