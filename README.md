@@ -1,7 +1,7 @@
 
 # QA Auto project for [Evolving Web](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwierczhmpCAAxWK76QKHfzXD1QQFnoECBMQAQ&url=https%3A%2F%2Fevolvingweb.com%2F&usg=AOvVaw1LB0mSVWIU8-3E3OG_k3Ga&opi=89978449)
 
-> Evolving Web Evolving Web is a Montreal-based team of Drupal experts. We provide consulting, development, and training services to guide their clients to success.
+> Evolving Web Evolving Web is a Montreal-based team of Drupal experts. They provide consulting, development, and training services to guide their clients to success.
 
 ## **Contains:**
 ____
