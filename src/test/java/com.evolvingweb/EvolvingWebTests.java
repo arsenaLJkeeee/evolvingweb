@@ -19,7 +19,6 @@ public class EvolvingWebTests extends EvolvingWebTestBase{
     @Test
     void smokeEvolvingWebMainPageTest() {
 
-
         SelenideLogger.addListener("allure", new AllureSelenide());
         step("Open main page", () -> open(baseUrl));
         step("Check if About menu is working", () -> {
