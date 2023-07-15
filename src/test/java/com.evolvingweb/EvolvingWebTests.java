@@ -71,10 +71,10 @@ public class EvolvingWebTests extends EvolvingWebTestBase{
             $(byText("Maintenance & Support")).hover()
                     .shouldBe(visible);
 
-            $(byText("Drupal")).hover()
+            $(byText("Drupal Upgrades and Migration Services")).hover()
                     .shouldBe(visible);
 
-            $(byText("Content")).hover()
+            $(byText("Content Strategy & SEO")).hover()
                     .shouldBe(visible);
         });
 
