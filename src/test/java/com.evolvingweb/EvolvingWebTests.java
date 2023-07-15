@@ -1,5 +1,6 @@
 package com.evolvingweb;
 
+import com.codeborne.selenide.ClickOptions;
 import com.codeborne.selenide.SelenideElement;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -106,7 +107,7 @@ public class EvolvingWebTests extends EvolvingWebTestBase{
         step("Click on Contact us", () -> {
             $(byText("Contact")).hover()
                     .shouldBe(visible, Duration.ofSeconds(3))
-                    .click();
+                    .click(ClickOptions.usingJavaScript());
 
 
             $("#firstname-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
