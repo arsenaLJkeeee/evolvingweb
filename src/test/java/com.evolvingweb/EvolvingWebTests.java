@@ -105,8 +105,6 @@ public class EvolvingWebTests extends EvolvingWebTestBase{
             $(byText("Contact")).hover()
                     .shouldBe(visible, Duration.ofSeconds(3))
                     .click(ClickOptions.usingJavaScript());
-
-
             $("#firstname-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
                     .setValue("Vladimir");
             $("#lastname-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
@@ -119,8 +117,6 @@ public class EvolvingWebTests extends EvolvingWebTestBase{
                     .selectOption("Maintenance & Support");
             $("#message-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
                     .setValue("Hello, i'm Vladimir, Quality Assurance Engineer with a demonstrated history of working in software product-based companies, and i inspired by Evolving Web, just hire me!");
-
-
         });
 
         sleep(50000);
