@@ -43,6 +43,11 @@ test {
 }
 
 task remote_test(type: Test) {
+    systemProperty 'browser', System.getProperty('browser', '')
+    systemProperty 'browserVersion', System.getProperty('browserVersion', '')
+    systemProperty 'browserSize', System.getProperty('browserSize', '')
+    systemProperty 'baseUrl', System.getProperty('baseUrl', '')
+    systemProperty 'remoteUrl', System.getProperty('remoteUrl', '')
     useJUnitPlatform{
         includeTags("remote")
     }
