@@ -116,7 +116,7 @@ public class EvolvingWebTests extends EvolvingWebTestBase{
                     .setValue("Borchevskiy");
             $("#email-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
                     .setValue("arsenaljkeeee10@gmail.com");
-            $("#email-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
+            $("#phone-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
                     .setValue("+995597078392");
             $("#reason_for_contact-915edc9f-d14a-4f4d-b62c-d8b34ace0e10")
                     .selectOption("Maintenance & Support");
