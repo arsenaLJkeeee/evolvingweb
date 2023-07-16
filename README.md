@@ -37,8 +37,8 @@ ____
 <a id="cases"></a>
 ## <a name="Examples of automated test-cases">**Examples of automated test-cases:**</a>
 ____
-- ✓ *Check that Banking pop-up is working*
-- ✓ *Check that items from Banking pop-up is working*
+- ✓ *Check that main buttons are working*
+- ✓ *Check that "Contact Us" form is working*
 ____
 <a id="jenkins"></a>
 ## <img alt="Jenkins" height="25" src="images/logo/Jenkins.svg" width="25"/></a><a name="Build"></a>Build in [Jenkins](https://jenkins.autotests.cloud/job/VRBorchevskiy-qa_guru_20_jenkins_remote/)</a>
